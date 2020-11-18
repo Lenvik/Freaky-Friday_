@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main{
+    width: 100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/food.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.main-corona{
+    width: 100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/food.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-about{
+    width: 100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/food.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.main-contact{
+    width: 100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/food.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.main-contactp{
+    width: 100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/food.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.main-food{
+    width: 100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/food.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-food image{
+    position: relative;
+    width: 350px;
+}
+.main-food image_img{
+  display: block;
+  width: 100%
+}
+.main-food image_overlay{
+  position: absolute;
+  top: 100;
+  left: 200;
+  width: 10%;
+  height: 10%;
+  background: rgba(0,0,0,0.6)
+  color #fff
+}
+
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-right: 50px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000
+}
+.logo img{
+    float: left;
+    width: 200px;
+    height: auto;
+}
+
+.main{
+    max-width: 2000px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #fff;
+
+}
+
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000
+}
+h1{
+    font-size: 60px;
+}
+
+.text p{
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    bottom: 320px;
+    margin-left: 370px;
+}
+
+.text2 p{
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    bottom: 370px;
+    margin-left: 530px;
+}
+.main-about.button{
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.contact-section h1{
+    text-align: center;
+    color: transparent;
+    position: top;
+    
+  
+    
+  }
+  .border{
+    width: 100px;
+    height: 10px;
+    margin: 120px auto;
+  }
+
+  .contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+
+  .contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+  }
+ 
+  textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+  }
+  .contact-form-btn{
+    border: 0;
+    background: cornflowerblue;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    float: right;
+
+  }
+  .contact-form-btn:hover{
+    background: royalblue;
+  }
+  
+.main-food p{
+    color: rgb(39, 2, 2);
+}
